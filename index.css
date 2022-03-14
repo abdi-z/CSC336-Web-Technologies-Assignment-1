@@ -32,15 +32,26 @@ body {
 }
 
 .right {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .right-flex {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
-
 .section-content {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+}
+
+.dates {
+  padding-right: 2rem;
+}
+
+.firstdate {
+  padding-bottom: 24rem;
+}
+
+.firstdate2 {
+  padding-bottom: 13.5rem;
 }
