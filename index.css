@@ -4,6 +4,10 @@ body {
   background-color: #ddd;
 }
 
+a {
+  color: white;
+}
+
 .section-heading {
   padding: 0.5rem;
   color: #003d73;
@@ -15,14 +19,14 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: 22rem;
-  margin-right: 22rem;
+  margin-left: 16rem;
+  margin-right: 16rem;
 }
 
 .left {
   background-color: #003d73;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  /* padding-left: 1.5rem;
+  padding-right: 1.5rem; */
 }
 
 .left-flex {
@@ -31,16 +35,51 @@ body {
   color: white;
 }
 
+.left-flex h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.left-flex h3 {
+  background-color: #00315c;
+}
+
 .right {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .right-flex {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
-
 .section-content {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+}
+
+.dates {
+  padding-right: 2rem;
+}
+
+.firstdate {
+  padding-bottom: 24rem;
+}
+
+.firstdate2 {
+  padding-bottom: 13.5rem;
+}
+
+.skill-bar {
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+}
+
+.interests{
+  text-decoration: none;
 }
