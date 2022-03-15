@@ -2,7 +2,12 @@ body {
   all: unset;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #ddd;
+  max-height: 12rem;
 }
+
+/* * {
+  line-height: 1.8rem;
+} */
 
 a {
   color: white;
@@ -19,8 +24,8 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: 16rem;
-  margin-right: 16rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
 }
 
 .left {
@@ -86,3 +91,33 @@ a {
 }
 
 
+.w3-border {
+  background-color: #00315c;
+  border-style:none;
+}
+/* 
+.w3-white {
+  border-color:black;
+  border-style:none;
+} */
+
+.projects-section {
+  text-decoration: none;
+}
+
+#date {
+  text-align: right;
+}
+
+.zoom {
+
+  transition: transform .2s;
+ 
+  }
+
+
+.zoom:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
